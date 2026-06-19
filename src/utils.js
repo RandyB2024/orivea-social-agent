@@ -102,13 +102,14 @@ function updateCalendar(post) {
   const calendarPath = `content-calendar/${monthKey}.json`;
   const calendar = readJson(calendarPath, { month: monthKey, posts: [] });
   const existingIndex = calendar.posts.findIndex((item) => item.id === post.id);
+  const fileDir = STATUS_DIRS.includes(post.status) ? post.status : "drafts";
   const summary = {
     id: post.id,
     date: post.date,
     category: post.category,
     theme: post.theme,
     status: post.status,
-    file: `${post.status === "rejected" ? "rejected" : "drafts"}/${post.id}.json`
+    file: `${fileDir}/${post.id}.json`
   };
   if (existingIndex >= 0) calendar.posts[existingIndex] = summary;
   else calendar.posts.push(summary);

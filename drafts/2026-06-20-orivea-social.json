@@ -19,17 +19,40 @@
       "#stijlvol",
       "#dagelijksmoment",
       "#eigenstijl"
-    ]
+    ],
+    "imagePrompt": "ochtendroutine met parfum op wastafel, zachte handdoek, natuurlijk licht, luxe kalme sfeer"
   },
   "facebook": {
-    "caption": "Een paar momenten aandacht zijn genoeg: kies je geur, spray subtiel en neem je eigen signatuur mee door de dag. Rustig, verzorgd en herkenbaar.\n\nVind jouw geur: https://orivea.nl"
+    "caption": "Een paar momenten aandacht zijn genoeg: kies je geur, spray subtiel en neem je eigen signatuur mee door de dag. Rustig, verzorgd en herkenbaar.\n\nVind jouw geur: https://orivea.nl",
+    "hashtags": [
+      "#orivea",
+      "#luxegeuren",
+      "#geurbeleving",
+      "#geurprofiel",
+      "#parfumroutine",
+      "#persoonlijkadvies",
+      "#discoverysample",
+      "#luxecollectie"
+    ],
+    "imagePrompt": "ochtendroutine met parfum op wastafel, zachte handdoek, natuurlijk licht, luxe kalme sfeer"
   },
   "tiktok": {
     "hook": "Een geur maakt je routine af.",
+    "script": "Shot 1: rustige productvisual. Shot 2: geurprofiel in beeld. Shot 3: CTA 'Vind jouw geur'.",
     "caption": "Een geur maakt je routine af. #orivea #luxegeuren #geurbeleving #geurprofiel #parfumroutine #persoonlijkadvies #discoverysample #luxecollectie",
-    "script": "Shot 1: rustige productvisual. Shot 2: geurprofiel in beeld. Shot 3: CTA 'Vind jouw geur'."
+    "hashtags": [
+      "#orivea",
+      "#luxegeuren",
+      "#geurbeleving",
+      "#geurprofiel",
+      "#parfumroutine",
+      "#persoonlijkadvies",
+      "#discoverysample",
+      "#luxecollectie"
+    ],
+    "videoIdea": "ochtendroutine met parfum op wastafel, zachte handdoek, natuurlijk licht, luxe kalme sfeer, korte premium reel met zachte beweging en duidelijke CTA"
   },
-  "CTA": "Vind jouw geur",
+  "callToAction": "Vind jouw geur",
   "status": "concept",
   "complianceCheck": {
     "passed": true,
@@ -41,7 +64,10 @@
     "score": 50,
     "matchedPost": "2026-06-18-orivea-social"
   },
+  "asset": null,
   "approvedBy": null,
   "approvedAt": null,
-  "createdAt": "2026-06-19T19:01:37.317Z"
+  "scheduledAt": null,
+  "publishedAt": null,
+  "createdAt": "2026-06-19T23:29:16.789Z"
 }

@@ -1,20 +1,33 @@
 {
   "name": "orivea-social-agent",
   "version": "1.0.0",
-  "description": "Losstaande AI social media concept-agent voor ORIVÈA.",
-  "main": "src/generate-daily-post.js",
+  "description": "ORIVEA workspace dashboard met social AI agent, orders en klantbeheer.",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
     "generate:daily": "node src/generate-daily-post.js",
     "generate:week": "node src/generate-weekly-calendar.js",
     "check": "node src/check-agent.js"
   },
   "keywords": [
     "orivea",
+    "workspace",
     "social-media",
     "content-calendar",
     "node"
   ],
   "author": "",
   "license": "UNLICENSED",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "helmet": "^8.1.0",
+    "multer": "^1.4.5-lts.2"
+  }
 }

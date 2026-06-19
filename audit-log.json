@@ -79,5 +79,23 @@
     "previousStatus": null,
     "newStatus": "rejected",
     "reason": "Te veel overlap met 2026-06-15-orivea-social."
+  },
+  {
+    "timestamp": "2026-06-19T23:12:42.318Z",
+    "postId": "2026-06-20-orivea-social",
+    "action": "generated",
+    "by": "agent",
+    "previousStatus": null,
+    "newStatus": "concept",
+    "reason": ""
+  },
+  {
+    "timestamp": "2026-06-19T23:29:16.811Z",
+    "postId": "2026-06-20-orivea-social",
+    "action": "generated",
+    "by": "agent",
+    "previousStatus": null,
+    "newStatus": "concept",
+    "reason": ""
   }
 ]
