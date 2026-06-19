@@ -1,0 +1,43 @@
+{
+  "id": "2026-06-16-orivea-social",
+  "date": "2026-06-16",
+  "category": "Geuradvies",
+  "theme": "Geurfamilies eenvoudig uitgelegd",
+  "instagram": {
+    "caption": "Fris voelt licht en energiek. Bloemig is zacht en elegant. Houtachtig geeft meer diepte. ORIVÈA helpt je kiezen op basis van gevoel, moment en stijl.\n\n#orivea #luxegeuren #geurbeleving #geurprofiel #parfumroutine #persoonlijkadvies #discoverysample #luxecollectie",
+    "shortCaption": "Zo kies je een geurprofiel dat bij je past.",
+    "hashtags": [
+      "#orivea",
+      "#luxegeuren",
+      "#geurbeleving",
+      "#geurprofiel",
+      "#parfumroutine",
+      "#persoonlijkadvies",
+      "#discoverysample",
+      "#luxecollectie"
+    ]
+  },
+  "facebook": {
+    "caption": "Fris voelt licht en energiek. Bloemig is zacht en elegant. Houtachtig geeft meer diepte. ORIVÈA helpt je kiezen op basis van gevoel, moment en stijl.\n\nVraag geuradvies: https://orivea.nl"
+  },
+  "tiktok": {
+    "hook": "Zo kies je een geurprofiel dat bij je past.",
+    "caption": "Zo kies je een geurprofiel dat bij je past. #orivea #luxegeuren #geurbeleving #geurprofiel #parfumroutine #persoonlijkadvies #discoverysample #luxecollectie",
+    "script": "Shot 1: rustige productvisual. Shot 2: geurprofiel in beeld. Shot 3: CTA 'Vraag geuradvies'."
+  },
+  "CTA": "Vraag geuradvies",
+  "status": "concept",
+  "complianceCheck": {
+    "passed": true,
+    "reason": ""
+  },
+  "toneWarning": null,
+  "duplicateCheck": {
+    "isDuplicate": false,
+    "score": 45,
+    "matchedPost": "2026-06-15-orivea-social"
+  },
+  "approvedBy": null,
+  "approvedAt": null,
+  "createdAt": "2026-06-19T19:01:37.155Z"
+}

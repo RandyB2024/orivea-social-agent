@@ -1,0 +1,43 @@
+{
+  "id": "2026-06-21-orivea-social",
+  "date": "2026-06-21",
+  "category": "Community",
+  "theme": "Vraag aan de community",
+  "instagram": {
+    "caption": "Vandaag draait het om kiezen op gevoel. Fris en licht, warm en elegant of juist zacht bloemig? Reageer met jouw favoriete geurprofiel.\n\n#persoonlijkadvies #discoverysample #luxecollectie #orivea #luxegeuren #geurbeleving #geurprofiel #parfumroutine",
+    "shortCaption": "Welke geur past bij jouw dag?",
+    "hashtags": [
+      "#persoonlijkadvies",
+      "#discoverysample",
+      "#luxecollectie",
+      "#orivea",
+      "#luxegeuren",
+      "#geurbeleving",
+      "#geurprofiel",
+      "#parfumroutine"
+    ]
+  },
+  "facebook": {
+    "caption": "Vandaag draait het om kiezen op gevoel. Fris en licht, warm en elegant of juist zacht bloemig? Reageer met jouw favoriete geurprofiel.\n\nDeel jouw voorkeur: https://orivea.nl"
+  },
+  "tiktok": {
+    "hook": "Welke geur past bij jouw dag?",
+    "caption": "Welke geur past bij jouw dag? #persoonlijkadvies #discoverysample #luxecollectie #orivea #luxegeuren #geurbeleving #geurprofiel #parfumroutine",
+    "script": "Shot 1: rustige productvisual. Shot 2: geurprofiel in beeld. Shot 3: CTA 'Deel jouw voorkeur'."
+  },
+  "CTA": "Deel jouw voorkeur",
+  "status": "concept",
+  "complianceCheck": {
+    "passed": true,
+    "reason": ""
+  },
+  "toneWarning": null,
+  "duplicateCheck": {
+    "isDuplicate": false,
+    "score": 61,
+    "matchedPost": "2026-06-16-orivea-social"
+  },
+  "approvedBy": null,
+  "approvedAt": null,
+  "createdAt": "2026-06-19T19:01:37.333Z"
+}

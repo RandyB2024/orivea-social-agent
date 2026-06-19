@@ -1,0 +1,20 @@
+{
+  "name": "orivea-social-agent",
+  "version": "1.0.0",
+  "description": "Losstaande AI social media concept-agent voor ORIVÈA.",
+  "main": "src/generate-daily-post.js",
+  "scripts": {
+    "generate:daily": "node src/generate-daily-post.js",
+    "generate:week": "node src/generate-weekly-calendar.js",
+    "check": "node src/check-agent.js"
+  },
+  "keywords": [
+    "orivea",
+    "social-media",
+    "content-calendar",
+    "node"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true
+}

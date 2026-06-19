@@ -1,0 +1,69 @@
+{
+  "month": "2026-06",
+  "posts": [
+    {
+      "id": "2026-06-15-orivea-social",
+      "date": "2026-06-15",
+      "category": "Geur van de week",
+      "theme": "Een rustige signatuur voor elke dag",
+      "status": "concept",
+      "file": "drafts/2026-06-15-orivea-social.json"
+    },
+    {
+      "id": "2026-06-16-orivea-social",
+      "date": "2026-06-16",
+      "category": "Geuradvies",
+      "theme": "Geurfamilies eenvoudig uitgelegd",
+      "status": "concept",
+      "file": "drafts/2026-06-16-orivea-social.json"
+    },
+    {
+      "id": "2026-06-17-orivea-social",
+      "date": "2026-06-17",
+      "category": "Partner Program",
+      "theme": "Delen wat bij je past",
+      "status": "concept",
+      "file": "drafts/2026-06-17-orivea-social.json"
+    },
+    {
+      "id": "2026-06-18-orivea-social",
+      "date": "2026-06-18",
+      "category": "Cadeau-inspiratie",
+      "theme": "Een verzorgd geurcadeau",
+      "status": "concept",
+      "file": "drafts/2026-06-18-orivea-social.json"
+    },
+    {
+      "id": "2026-06-19-orivea-social",
+      "date": "2026-06-19",
+      "category": "Bestseller",
+      "theme": "Populaire keuze uit de collectie",
+      "status": "concept",
+      "file": "drafts/2026-06-19-orivea-social.json"
+    },
+    {
+      "id": "2026-06-20-orivea-social",
+      "date": "2026-06-20",
+      "category": "Lifestyle",
+      "theme": "Een korte geur-routine",
+      "status": "concept",
+      "file": "drafts/2026-06-20-orivea-social.json"
+    },
+    {
+      "id": "2026-06-21-orivea-social",
+      "date": "2026-06-21",
+      "category": "Community",
+      "theme": "Vraag aan de community",
+      "status": "concept",
+      "file": "drafts/2026-06-21-orivea-social.json"
+    },
+    {
+      "id": "2026-06-22-orivea-social",
+      "date": "2026-06-22",
+      "category": "Geur van de week",
+      "theme": "Een rustige signatuur voor elke dag",
+      "status": "rejected",
+      "file": "rejected/2026-06-22-orivea-social.json"
+    }
+  ]
+}

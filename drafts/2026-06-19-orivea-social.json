@@ -1,0 +1,43 @@
+{
+  "id": "2026-06-19-orivea-social",
+  "date": "2026-06-19",
+  "category": "Bestseller",
+  "theme": "Populaire keuze uit de collectie",
+  "instagram": {
+    "caption": "Onze bestsellers combineren een duidelijke geurbeleving met een luxe presentatie. Ideaal wanneer je een geur zoekt die direct vertrouwen geeft.\n\n#geurprofiel #parfumroutine #persoonlijkadvies #discoverysample #luxecollectie #orivea #luxegeuren #geurbeleving",
+    "shortCaption": "Een populaire keuze begint bij herkenbare stijl.",
+    "hashtags": [
+      "#geurprofiel",
+      "#parfumroutine",
+      "#persoonlijkadvies",
+      "#discoverysample",
+      "#luxecollectie",
+      "#orivea",
+      "#luxegeuren",
+      "#geurbeleving"
+    ]
+  },
+  "facebook": {
+    "caption": "Onze bestsellers combineren een duidelijke geurbeleving met een luxe presentatie. Ideaal wanneer je een geur zoekt die direct vertrouwen geeft.\n\nBekijk populaire geuren: https://orivea.nl"
+  },
+  "tiktok": {
+    "hook": "Een populaire keuze begint bij herkenbare stijl.",
+    "caption": "Een populaire keuze begint bij herkenbare stijl. #geurprofiel #parfumroutine #persoonlijkadvies #discoverysample #luxecollectie #orivea #luxegeuren #geurbeleving",
+    "script": "Shot 1: rustige productvisual. Shot 2: geurprofiel in beeld. Shot 3: CTA 'Bekijk populaire geuren'."
+  },
+  "CTA": "Bekijk populaire geuren",
+  "status": "concept",
+  "complianceCheck": {
+    "passed": true,
+    "reason": ""
+  },
+  "toneWarning": null,
+  "duplicateCheck": {
+    "isDuplicate": false,
+    "score": 51,
+    "matchedPost": "2026-06-15-orivea-social"
+  },
+  "approvedBy": null,
+  "approvedAt": null,
+  "createdAt": "2026-06-19T19:01:37.296Z"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2026-06-22-orivea-social",
+  "date": "2026-06-22",
+  "category": "Geur van de week",
+  "theme": "Een rustige signatuur voor elke dag",
+  "instagram": {
+    "caption": "Deze week draait om een luxe geurbeleving met een helder profiel en een verzorgde uitstraling. Perfect voor wie dagelijks iets eigens wil dragen.\n\n#discoverysample #luxecollectie #orivea #luxegeuren #geurbeleving #geurprofiel #parfumroutine #persoonlijkadvies",
+    "shortCaption": "Een geur die rustig aanwezig is.",
+    "hashtags": [
+      "#discoverysample",
+      "#luxecollectie",
+      "#orivea",
+      "#luxegeuren",
+      "#geurbeleving",
+      "#geurprofiel",
+      "#parfumroutine",
+      "#persoonlijkadvies"
+    ]
+  },
+  "facebook": {
+    "caption": "Deze week draait om een luxe geurbeleving met een helder profiel en een verzorgde uitstraling. Perfect voor wie dagelijks iets eigens wil dragen.\n\nOntdek de collectie: https://orivea.nl"
+  },
+  "tiktok": {
+    "hook": "Een geur die rustig aanwezig is.",
+    "caption": "Een geur die rustig aanwezig is. #discoverysample #luxecollectie #orivea #luxegeuren #geurbeleving #geurprofiel #parfumroutine #persoonlijkadvies",
+    "script": "Shot 1: rustige productvisual. Shot 2: geurprofiel in beeld. Shot 3: CTA 'Ontdek de collectie'."
+  },
+  "CTA": "Ontdek de collectie",
+  "status": "rejected",
+  "complianceCheck": {
+    "passed": true,
+    "reason": "Te veel overlap met 2026-06-15-orivea-social."
+  },
+  "toneWarning": null,
+  "duplicateCheck": {
+    "isDuplicate": true,
+    "score": 100,
+    "matchedPost": "2026-06-15-orivea-social"
+  },
+  "approvedBy": null,
+  "approvedAt": null,
+  "createdAt": "2026-06-19T19:09:57.477Z"
+}

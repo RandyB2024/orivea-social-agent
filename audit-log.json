@@ -1,0 +1,83 @@
+[
+  {
+    "timestamp": "2026-06-19T19:01:37.146Z",
+    "postId": "2026-06-15-orivea-social",
+    "action": "generated",
+    "by": "agent",
+    "previousStatus": null,
+    "newStatus": "concept",
+    "reason": ""
+  },
+  {
+    "timestamp": "2026-06-19T19:01:37.243Z",
+    "postId": "2026-06-16-orivea-social",
+    "action": "generated",
+    "by": "agent",
+    "previousStatus": null,
+    "newStatus": "concept",
+    "reason": ""
+  },
+  {
+    "timestamp": "2026-06-19T19:01:37.265Z",
+    "postId": "2026-06-17-orivea-social",
+    "action": "generated",
+    "by": "agent",
+    "previousStatus": null,
+    "newStatus": "rejected",
+    "reason": "Partnerpost mist #ad of #samenwerking."
+  },
+  {
+    "timestamp": "2026-06-19T19:01:37.288Z",
+    "postId": "2026-06-18-orivea-social",
+    "action": "generated",
+    "by": "agent",
+    "previousStatus": null,
+    "newStatus": "concept",
+    "reason": ""
+  },
+  {
+    "timestamp": "2026-06-19T19:01:37.308Z",
+    "postId": "2026-06-19-orivea-social",
+    "action": "generated",
+    "by": "agent",
+    "previousStatus": null,
+    "newStatus": "concept",
+    "reason": ""
+  },
+  {
+    "timestamp": "2026-06-19T19:01:37.326Z",
+    "postId": "2026-06-20-orivea-social",
+    "action": "generated",
+    "by": "agent",
+    "previousStatus": null,
+    "newStatus": "concept",
+    "reason": ""
+  },
+  {
+    "timestamp": "2026-06-19T19:01:37.345Z",
+    "postId": "2026-06-21-orivea-social",
+    "action": "generated",
+    "by": "agent",
+    "previousStatus": null,
+    "newStatus": "concept",
+    "reason": ""
+  },
+  {
+    "timestamp": "2026-06-19T19:07:59.807Z",
+    "postId": "2026-06-17-orivea-social",
+    "action": "generated",
+    "by": "agent",
+    "previousStatus": null,
+    "newStatus": "concept",
+    "reason": ""
+  },
+  {
+    "timestamp": "2026-06-19T19:09:57.552Z",
+    "postId": "2026-06-22-orivea-social",
+    "action": "generated",
+    "by": "agent",
+    "previousStatus": null,
+    "newStatus": "rejected",
+    "reason": "Te veel overlap met 2026-06-15-orivea-social."
+  }
+]

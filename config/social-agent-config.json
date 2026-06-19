@@ -1,0 +1,15 @@
+{
+  "brand": "ORIVÈA",
+  "website": "https://orivea.nl",
+  "partnerProgramUrl": "https://orivea.nl/glantier-partner-program.html",
+  "autoPublish": false,
+  "requiresApproval": true,
+  "allowPerfumeReferences": false,
+  "allowIncomeClaims": false,
+  "allowMedicalClaims": false,
+  "requireAdDisclosure": true,
+  "minAgeTargetingNote": "Niet expliciet richten op personen onder 18 jaar; 'studenten' en 'starters' verwijzen naar volwassen doelgroep.",
+  "defaultLanguage": "nl",
+  "platforms": ["instagram", "facebook", "tiktok"],
+  "duplicateCheckWindowDays": 30
+}

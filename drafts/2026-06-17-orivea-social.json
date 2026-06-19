@@ -1,0 +1,47 @@
+{
+  "id": "2026-06-17-orivea-social",
+  "date": "2026-06-17",
+  "category": "Partner Program",
+  "theme": "Delen wat bij je past",
+  "instagram": {
+    "caption": "Het Glantier Partner Program is er voor volwassenen die hun passie voor luxe geuren willen delen. Resultaten hangen af van eigen inzet, netwerk en verkoopactiviteiten. #ad\n\n#orivea #luxegeuren #geurbeleving #geurprofiel #parfumroutine #persoonlijkadvies #discoverysample #luxecollectie #partnerprogramma #bijverdienen #ondernemen #samenwerking",
+    "shortCaption": "Deel jouw favoriete geuren op jouw tempo.",
+    "hashtags": [
+      "#orivea",
+      "#luxegeuren",
+      "#geurbeleving",
+      "#geurprofiel",
+      "#parfumroutine",
+      "#persoonlijkadvies",
+      "#discoverysample",
+      "#luxecollectie",
+      "#partnerprogramma",
+      "#bijverdienen",
+      "#ondernemen",
+      "#samenwerking"
+    ]
+  },
+  "facebook": {
+    "caption": "Het Glantier Partner Program is er voor volwassenen die hun passie voor luxe geuren willen delen. Resultaten hangen af van eigen inzet, netwerk en verkoopactiviteiten. #ad\n\nBekijk het partnerprogramma: https://orivea.nl"
+  },
+  "tiktok": {
+    "hook": "Deel jouw favoriete geuren op jouw tempo.",
+    "caption": "Deel jouw favoriete geuren op jouw tempo. #orivea #luxegeuren #geurbeleving #geurprofiel #parfumroutine #persoonlijkadvies #discoverysample #luxecollectie",
+    "script": "Shot 1: rustige productvisual. Shot 2: geurprofiel in beeld. Shot 3: CTA 'Bekijk het partnerprogramma'."
+  },
+  "CTA": "Bekijk het partnerprogramma",
+  "status": "concept",
+  "complianceCheck": {
+    "passed": true,
+    "reason": ""
+  },
+  "toneWarning": null,
+  "duplicateCheck": {
+    "isDuplicate": false,
+    "score": 46,
+    "matchedPost": "2026-06-21-orivea-social"
+  },
+  "approvedBy": null,
+  "approvedAt": null,
+  "createdAt": "2026-06-19T19:07:59.731Z"
+}
