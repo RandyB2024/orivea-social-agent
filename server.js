@@ -32,24 +32,27 @@ const defaultAllowedOrigins = [
   "https://www.workspace.orivea.nl",
   "https://orivea.nl",
   "https://www.orivea.nl",
+  "https://orivea-workspace.onrender.com",
   "http://localhost:3000",
   "http://127.0.0.1:3000"
 ];
-const corsAllowedOrigins = [...new Set([...allowedOrigins, ...defaultAllowedOrigins])];
-
-initDb();
-
-app.set("trust proxy", 1);
-app.use(helmet({ contentSecurityPolicy: false }));
-app.use(cors({
+const corsAllowedOrigins = [...new Set([...defaultAllowedOrigins, ...allowedOrigins])];
+const corsOptions = {
   origin(origin, callback) {
-    if (!origin) return callback(null, true);
+    if (!origin || origin === "null") return callback(null, true);
     if (corsAllowedOrigins.includes(origin)) return callback(null, true);
     console.warn("CORS blocked origin:", origin);
     return callback(new Error("Origin niet toegestaan."));
   },
   credentials: true
-}));
+};
+console.log("Allowed CORS origins:", corsAllowedOrigins);
+
+initDb();
+
+app.set("trust proxy", 1);
+app.use(helmet({ contentSecurityPolicy: false }));
+app.use("/api", cors(corsOptions));
 app.use(express.json({ limit: "2mb" }));
 app.use(express.urlencoded({ extended: true }));
 app.use(session({
@@ -103,6 +106,5 @@ app.use((err, req, res, next) => {
 
 const port = process.env.PORT || 3000;
 app.listen(port, "0.0.0.0", () => {
-  console.log("Allowed CORS origins:", corsAllowedOrigins);
   console.log(`ORIVEA workspace actief op poort ${port}`);
 });
