@@ -54,6 +54,9 @@ async function loadDashboard() {
     ["Nieuwsbrief", data.newsletter],
     ["Omzet betaald", money(data.revenue)]
   ].map(([label, value]) => `<article class="metric"><span>${label}</span><strong>${value}</strong></article>`).join("");
+  if (data.warning) {
+    document.getElementById("summaryCards").insertAdjacentHTML("afterend", `<section class="panel notice"><p>${data.warning}</p></section>`);
+  }
 }
 
 async function loadOrders(q = "") {

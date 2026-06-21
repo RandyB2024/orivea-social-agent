@@ -6,13 +6,15 @@ const { db } = require("../db");
 const { writeAudit } = require("../audit");
 
 const router = express.Router();
+const appRoot = path.resolve(__dirname, "..", "..", "..");
+const publicRoot = path.join(appRoot, "public");
 const categories = new Set(["producten", "premium", "samples", "partnerprogramma", "lifestyle", "cadeau", "reels"]);
 const allowedExt = new Set([".jpg", ".jpeg", ".png", ".webp", ".mp4", ".mov"]);
 
 const storage = multer.diskStorage({
   destination(req, file, callback) {
     const category = categories.has(req.body.category) ? req.body.category : "lifestyle";
-    const target = path.resolve(process.cwd(), "public", "uploads", category);
+    const target = path.join(publicRoot, "uploads", category);
     fs.mkdirSync(target, { recursive: true });
     callback(null, target);
   },
@@ -55,8 +57,8 @@ router.post("/upload", upload.single("asset"), (req, res) => {
 router.delete("/:id", (req, res) => {
   const asset = db.prepare("SELECT * FROM assets WHERE id = ?").get(req.params.id);
   if (!asset) return res.status(404).json({ error: "Asset niet gevonden." });
-  const fullPath = path.resolve(process.cwd(), "public", asset.url.replace(/^\//, ""));
-  if (fullPath.startsWith(path.resolve(process.cwd(), "public")) && fs.existsSync(fullPath)) fs.unlinkSync(fullPath);
+  const fullPath = path.resolve(publicRoot, asset.url.replace(/^\//, ""));
+  if (fullPath.startsWith(publicRoot) && fs.existsSync(fullPath)) fs.unlinkSync(fullPath);
   db.prepare("DELETE FROM assets WHERE id = ?").run(req.params.id);
   writeAudit({ entityType: "asset", entityId: req.params.id, action: "delete", byUser: req.session.user.username });
   res.json({ ok: true });

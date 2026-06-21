@@ -100,6 +100,12 @@ textarea { min-height: 120px; resize: vertical; }
 }
 .metric span { color: var(--muted); font-size: 13px; }
 .metric strong { display: block; margin-top: 8px; font-size: 28px; color: var(--ink); }
+.notice {
+  margin-top: -6px;
+  margin-bottom: 24px;
+  border-color: rgba(156, 123, 63, .34);
+  background: rgba(216, 191, 134, .16);
+}
 .toolbar, .action-panel, .upload-form {
   display: flex;
   gap: 12px;

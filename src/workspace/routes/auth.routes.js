@@ -5,10 +5,11 @@ const { loginRateLimit } = require("../middleware");
 const { writeAudit } = require("../audit");
 
 const router = express.Router();
+const appRoot = path.resolve(__dirname, "..", "..", "..");
 
 router.get("/login", (req, res) => {
   if (req.session.user) return res.redirect("/dashboard");
-  return res.sendFile(path.resolve(process.cwd(), "views", "login.html"));
+  return res.sendFile(path.join(appRoot, "views", "login.html"));
 });
 
 router.post("/login", loginRateLimit, async (req, res) => {

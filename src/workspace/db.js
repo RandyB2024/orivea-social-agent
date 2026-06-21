@@ -2,7 +2,8 @@ const fs = require("fs");
 const path = require("path");
 const Database = require("better-sqlite3");
 
-const dbPath = path.resolve(process.cwd(), process.env.DATABASE_PATH || "data/orivea-workspace.sqlite");
+const appRoot = path.resolve(__dirname, "..", "..");
+const dbPath = path.resolve(appRoot, process.env.DATABASE_PATH || "data/orivea-workspace.sqlite");
 fs.mkdirSync(path.dirname(dbPath), { recursive: true });
 
 const db = new Database(dbPath);

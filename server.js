@@ -21,6 +21,7 @@ const settingsRoutes = require("./src/workspace/routes/settings.routes");
 const webhookRoutes = require("./src/workspace/routes/webhook.routes");
 
 const app = express();
+const appRoot = __dirname;
 const isProduction = process.env.NODE_ENV === "production";
 const allowedOrigins = (process.env.ALLOWED_ORIGINS || "https://orivea.nl,https://www.orivea.nl,http://localhost:3000,http://127.0.0.1:3000")
   .split(",")
@@ -52,7 +53,7 @@ app.use(session({
   }
 }));
 
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(appRoot, "public")));
 
 app.get("/health", (req, res) => res.json({ status: "ok" }));
 app.get("/", (req, res) => res.redirect(req.session.user ? "/dashboard" : "/login"));
@@ -72,13 +73,20 @@ app.use("/api/settings", settingsRoutes);
 
 app.use((req, res) => {
   if (req.path.startsWith("/api/")) return res.status(404).json({ error: "Niet gevonden." });
-  return res.status(404).sendFile(path.join(__dirname, "views", "dashboard.html"));
+  return res.status(404).sendFile(path.join(appRoot, "views", "dashboard.html"));
 });
 
 app.use((err, req, res, next) => {
-  console.error("[ORIVEA workspace]", err);
+  console.error("Workspace route error:", err);
+  if (err && err.stack) console.error(err.stack);
   if (res.headersSent) return next(err);
-  return res.status(500).json({ error: "Er ging iets mis in de workspace." });
+  if (req.path.startsWith("/api/")) {
+    return res.status(500).json({
+      error: "Er ging iets mis in de workspace.",
+      message: isProduction ? undefined : err.message
+    });
+  }
+  return res.status(500).sendFile(path.join(appRoot, "views", "dashboard.html"));
 });
 
 const port = process.env.PORT || 3000;
